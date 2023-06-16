@@ -8,6 +8,10 @@ createApp({
         }
     },
 
+    mounted() {
+        this.createRandomEmail()
+    },
+
     methods: {
         createRandomEmail(){
             for ( let i=1; i<=10; i++){
@@ -18,4 +22,4 @@ createApp({
 
         }
     },
-})
+}).mount('#app')

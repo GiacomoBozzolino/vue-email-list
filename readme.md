@@ -9,4 +9,5 @@ Problema: Attraverso l'apposita API di Boolean https://flynn.boolean.careers/exe
     axion.get(link dell'api).then((result) => { 
         dentro l'arrow function push i risultati ottenuti nell'array vuoto
         this.array.push (result.data.response)})
-5- nell'HTML creo un elemento ul in cui recupero l'array vuoto in modo che venga stampato in pagina
+5- recupero la funzione così creata e la inserisco in mounted in modo che funzioni automaticamente.
+6- nell'HTML creo un elemento ul in cui recupero l'array vuoto in modo che venga stampato in pagina
